@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+</head>
+<body>
+    <script>
+        //js fundamentals pt3 start
+        function add7(number) {
+            return number + 7;
+        }
+
+        function multiply(n1,n2) {
+            return n1 * n2;
+        }
+
+        function capitalize(str) {
+            let firstLetterCap = str.charAt(0).toUpperCase();
+            let remainingLetters = str.toLowerCase().slice(1);
+            let result = firstLetterCap + remainingLetters;
+            return result;
+        }
+
+        function lastLetter(str) {
+            let lastChar = str.charAt((str.length)-1);
+            return lastChar;
+        }
+        //js fundamentals pt3 end
+
+        
+    </script>
+</body>
+</html>
